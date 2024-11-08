@@ -12,7 +12,7 @@ st.sidebar.image(logo, use_column_width=True)
 # Password authentication
 st.sidebar.title("Configuration")
 input_password = st.sidebar.text_input("Enter Password (password is team's name without capital)", type="password")
-correct_password = "doaibu"
+correct_password = "openmachine"
 if input_password != correct_password:
     st.sidebar.error("Incorrect password. Access denied.")
     st.stop()
